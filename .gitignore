@@ -1,0 +1,78 @@
+# =========================
+# Java / Spring Boot
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+
+target/
+build/
+out/
+
+# Spring Boot logs
+*.log
+logs/
+
+# Local config files (your case)
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+
+# =========================
+# Maven / Gradle
+# =========================
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+.gradle/
+gradle-app.setting
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iws
+*.log
+
+# =========================
+# Eclipse / STS
+# =========================
+.classpath
+.project
+.settings/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary / cache
+# =========================
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+
+# =========================
+# Node (if any frontend module exists)
+# =========================
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
